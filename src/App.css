@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: black;
+  color:white;
+}
+
+.navbar{
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.inputs{
+  color: white;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  background-color: black;
+}
+
+.inputs:focus {
+  color: white;
+  background-color: black;
+}
+
+.inputs::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+.btn{
+  border-radius: 0px;
+  width: 140px;
+  height: 40px;
+}
+
+.Title{
+  font-size: 3rem;
+  margin: 50px 0;
+}
+
+.details{
+  font-size: 2rem;
+  margin: 50px 0px;
+}
+
+.mainForm{
+  margin-top: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.mainDetails{
+  margin-left: 40px;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}
+
